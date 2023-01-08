@@ -1,0 +1,61 @@
+.overlay{
+    min-height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0; left: 0;
+    right: 0; bottom: 0;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay-inner{
+    background: #fff;
+    width: 700px;
+    height: 500px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+}
+.overlay-inner .close{
+    position: absolute;
+    top:15px;
+    right: 15px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    background-color: transparent;
+}
+.overlay-inner .inner-box{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.overlay-inner .inner-box img{
+    margin-right: 20px;
+    width: 150px;
+    height: 200px;
+}
+.overlay-inner .inner-box h3{
+    margin-top: 10px;
+    color: green;
+}
+.overlay-inner .inner-box h4{
+    color: blue;
+}
+.overlay-inner .inner-box button{
+    outline: none;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #24a0ed;
+    color: white;
+    font-weight: bold;
+    padding: 4px 5px;
+}
+.overlay-inner .description{
+    margin-top: 30px;
+    text-align: justify;
+    font-size: 13px;
+}
